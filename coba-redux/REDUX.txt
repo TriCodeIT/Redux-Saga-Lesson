@@ -1,0 +1,18 @@
+KEGUNAAN REDUX
+
+Maka secara garis besar Kegunaan dari Redux yaitu Supaya EMUTABLE, 
+agar memorinya menjadi lebih kecil, memorinya tertimpa-timpa dihancurkan atau bisa disebut juga di REDUKSI MEMORINYA, 
+Maka di Reducers pola-polanya terdapat return semua.
+
+
+SOFTWARE ARCHITECTURE
+
+Buatlah Folder yang harus ditambahkan
+    1. Components, yang kita sudah diketahui saat ReactJS. Bisa dibilang juga Component Pasif jika pada Redux, Bersifat Independent tanpa ada action maupun sebuah state.
+    2. Actions, untuk Aksi-Aksi Statenya (Dimulai Pertama Coding).
+    3. Reducers, untuk mengolah statenya (Urutan Kedua Coding setelah membuat Actions).
+    4. Containers, Component yang digunakan Connect langsung ke Redux, Bisa dibilang Component Activ, karena terdapat actions maupun state (Urutan Ketiga Coding).
+
+Dibuatnya Folder baru Actions, Reducers, Containers, supaya Codingan menjadi lebih rapih dan terstruktur,
+tidak menumpuk di Component saja
+
